@@ -22,8 +22,9 @@ public class GUI extends JPanel {
         Graphics2D g = (Graphics2D) graphics;
 
         g.setBackground(Color.BLACK);
+        g.fillRect(0, 0, WIDTH, HEIGHT);
 
-        g.clearRect(0, 0, WIDTH, HEIGHT);
+        //g.clearRect(0, 0, WIDTH, HEIGHT);
 
         g.setColor(Color.WHITE);
 
