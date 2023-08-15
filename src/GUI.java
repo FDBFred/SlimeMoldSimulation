@@ -26,15 +26,14 @@ public class GUI extends JPanel {
         startSimulation();
     }
 
+    public static Color getPixel(int i, int j, Graphics2D g) {
+        return g.getColor();
+    }
+
     private void startSimulation() {
         new Thread(() -> {
             while (true) {
                 repaint();
-                try {
-                    Thread.sleep(10);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
             }
         }).start();
     }
@@ -42,10 +41,10 @@ public class GUI extends JPanel {
     public void paint(Graphics graphics) {
         Graphics2D g = (Graphics2D) graphics;
 
-        offScreenGraphics.setColor(new Color(0, 0, 0, 6));
+        offScreenGraphics.setColor(new Color(0, 0, 0,   6));
         offScreenGraphics.fillRect(0, 0, WIDTH, HEIGHT);
 
-        offScreenGraphics.setColor(Color.WHITE);
+        offScreenGraphics.setColor(Color.red);
 
         for (entity entity : Main.entities) {
             drawEntity(entity, offScreenGraphics);
@@ -57,7 +56,7 @@ public class GUI extends JPanel {
     }
 
     private void drawEntity(entity entity, Graphics2D g) {
-        g.fillRect((int) entity.x, (int) entity.y, 10, 10);
+        g.fillRect((int) entity.x, (int) entity.y, 2, 2);
     }
 
     public static void main(String[] args) {

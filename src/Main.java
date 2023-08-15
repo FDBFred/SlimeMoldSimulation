@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 
 public class Main {
-    public static final int entityCount = 100;
+    public static final int entityCount = 500;
 
     static ArrayList<entity> entities = new ArrayList<>();
     public static void main(String[] args) {
