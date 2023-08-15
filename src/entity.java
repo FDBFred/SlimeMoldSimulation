@@ -6,6 +6,7 @@ public class entity {
     public static final Random random = new Random();
 
     public static int vel = 2;
+    public static final int viewRadius = 50;
 
     public double x;
     public double y;
