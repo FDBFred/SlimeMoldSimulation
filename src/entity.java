@@ -55,7 +55,16 @@ public class entity {
     public static void move() {
         for (entity entity : Main.entities) {
 
-            entity.dir += Math.toRadians(5);
+            entity closestEntity = Main.entities.get(0);
+            for (entity entity1: Main.entities) {
+                if (entity1 != entity) {
+                    if (entity.x - entity1.x < closestEntity.x - entity.x && entity.y - entity1.y < closestEntity.y - entity.y) {
+                        closestEntity = entity1;
+                    }
+                }
+            }
+
+            entity.dir += Math.atan2(closestEntity.y - entity.y, closestEntity.x - entity.x);
 
             entity.x += (Math.cos(entity.dir) * vel);
             entity.y += (Math.sin(entity.dir) * vel);
