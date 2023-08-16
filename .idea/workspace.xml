@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43be4406-3327-4d21-be0a-7e3b9e0a566d" name="Changes" comment="COOL LOOKING BUG">
+    <list default="true" id="43be4406-3327-4d21-be0a-7e3b9e0a566d" name="Changes" comment="eh">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="blureAttempt" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "blureAttempt",
+    "git-widget-placeholder": "Slime",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +60,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,7 +90,9 @@
       <workItem from="1692082054155" duration="8066000" />
       <workItem from="1692096419186" duration="7606000" />
       <workItem from="1692116874176" duration="3638000" />
-      <workItem from="1692165627347" duration="1608000" />
+      <workItem from="1692165627347" duration="2104000" />
+      <workItem from="1692167813195" duration="156000" />
+      <workItem from="1692168320225" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="working bouncing screen blobs">
       <option name="closed" value="true" />
@@ -146,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692167227699</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="eh">
+      <option name="closed" value="true" />
+      <created>1692167409712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692167409712</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +169,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Slime" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -171,6 +195,7 @@
     <MESSAGE value="Working - circles" />
     <MESSAGE value="Working - circles but wired" />
     <MESSAGE value="COOL LOOKING BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="COOL LOOKING BUG" />
+    <MESSAGE value="eh" />
+    <option name="LAST_COMMIT_MESSAGE" value="eh" />
   </component>
 </project>

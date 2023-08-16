@@ -34,12 +34,12 @@ public class entity {
     }
 
     public double CreateX() {
-        x = random.nextInt(viewDist + 10, GUI.WIDTH - (20 + viewDist));
+        x = random.nextInt(viewDist, GUI.WIDTH - 20);
         return x;
     }
 
     public double CreateY() {
-        y = random.nextInt(10 + viewDist, GUI.HEIGHT - (20 + viewDist));
+        y = random.nextInt(10, GUI.HEIGHT - 20);;
         return y;
     }
 
@@ -67,10 +67,6 @@ public class entity {
 
             if (secondClosestEntity.x - entity.x < viewDist && secondClosestEntity.y  - entity.y < viewDist && closestEntity.x - entity.x < viewDist && closestEntity.y - entity.y < viewDist) {
                 entity.dir = Math.atan2((closestEntity.y + secondClosestEntity.y)/2 - entity.y, (closestEntity.x + secondClosestEntity.x)/2 - entity.x);
-            }
-
-            if (GUI.WIDTH - entity.x < viewDist || GUI.HEIGHT - entity.y < viewDist || entity.x < viewDist || entity.y < viewDist) {
-                entity.dir += Math.toRadians(5);
             }
 
             entity.x += (Math.cos(entity.dir) * vel);
