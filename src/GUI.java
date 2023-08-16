@@ -44,7 +44,7 @@ public class GUI extends JPanel {
         offScreenGraphics.setColor(new Color(0, 0, 0,   6));
         offScreenGraphics.fillRect(0, 0, WIDTH, HEIGHT);
 
-        offScreenGraphics.setColor(Color.red);
+        offScreenGraphics.setColor(Color.blue);
 
         for (entity entity : Main.entities) {
             drawEntity(entity, offScreenGraphics);

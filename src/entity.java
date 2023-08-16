@@ -54,10 +54,8 @@ public class entity {
 
     public static void move() {
         for (entity entity : Main.entities) {
-            for (int i = (int) - (entity.dir/2); i < viewAngle; i++) {
-                for (int j = 0; j < viewDist; j++) {
-                }
-            }
+
+            entity.dir += Math.toRadians(5);
 
             entity.x += (Math.cos(entity.dir) * vel);
             entity.y += (Math.sin(entity.dir) * vel);
