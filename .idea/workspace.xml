@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43be4406-3327-4d21-be0a-7e3b9e0a566d" name="Changes" comment="Working - circles but wired">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+    <list default="true" id="43be4406-3327-4d21-be0a-7e3b9e0a566d" name="Changes" comment="COOL LOOKING BUG">
       <change beforePath="$PROJECT_DIR$/src/entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1692082054155" duration="8066000" />
       <workItem from="1692096419186" duration="7606000" />
       <workItem from="1692116874176" duration="3638000" />
-      <workItem from="1692165627347" duration="1246000" />
+      <workItem from="1692165627347" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="working bouncing screen blobs">
       <option name="closed" value="true" />
@@ -140,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692166200440</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="COOL LOOKING BUG">
+      <option name="closed" value="true" />
+      <created>1692167227699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692167227699</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +170,7 @@
     <MESSAGE value="Working - gausian blur v2" />
     <MESSAGE value="Working - circles" />
     <MESSAGE value="Working - circles but wired" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working - circles but wired" />
+    <MESSAGE value="COOL LOOKING BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="COOL LOOKING BUG" />
   </component>
 </project>
