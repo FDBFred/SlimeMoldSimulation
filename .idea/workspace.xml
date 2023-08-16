@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43be4406-3327-4d21-be0a-7e3b9e0a566d" name="Changes" comment="Working - circles">
+    <list default="true" id="43be4406-3327-4d21-be0a-7e3b9e0a566d" name="Changes" comment="Working - circles but wired">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +90,7 @@
       <workItem from="1692082054155" duration="8066000" />
       <workItem from="1692096419186" duration="7606000" />
       <workItem from="1692116874176" duration="3638000" />
-      <workItem from="1692165627347" duration="500000" />
+      <workItem from="1692165627347" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="working bouncing screen blobs">
       <option name="closed" value="true" />
@@ -130,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692165812990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Working - circles but wired">
+      <option name="closed" value="true" />
+      <created>1692166200440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692166200440</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +163,7 @@
     <MESSAGE value="Working - gausian blur" />
     <MESSAGE value="Working - gausian blur v2" />
     <MESSAGE value="Working - circles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working - circles" />
+    <MESSAGE value="Working - circles but wired" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working - circles but wired" />
   </component>
 </project>

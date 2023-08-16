@@ -10,7 +10,7 @@ public class GUI extends JPanel {
     static JFrame frame = new JFrame("SlimeMoldSimulation");
 
     private final BufferedImage offScreenImage;
-    private final Graphics2D offScreenGraphics;
+    public final Graphics2D offScreenGraphics;
 
     public GUI() {
         this.setBackground(Color.BLACK);
